@@ -1,0 +1,11 @@
+# Almacenar la contraseña en una variable
+contraseña_correcta = "contraseña"
+
+# Preguntar al usuario por la contraseña
+contraseña_usuario = input("Introduce la contraseña: ")
+
+# Comparar las contraseñas sin tener en cuenta mayúsculas y minúsculas
+if contraseña_usuario.lower() == contraseña_correcta.lower():
+    print("La contraseña es correcta.")
+else:
+    print("La contraseña es incorrecta.")
